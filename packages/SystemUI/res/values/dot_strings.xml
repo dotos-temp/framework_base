@@ -48,4 +48,5 @@
     <string name="accessibility_quick_settings_location_gps_only">Location reporting: sensors only mode.</string>
     <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
 
+    <string name="recents_free_ram">Free RAM: %1$d MB</string>
 </resources>
