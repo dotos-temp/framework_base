@@ -68,6 +68,7 @@ import android.annotation.Nullable;
 import android.annotation.SystemApi;
 import android.app.ActivityManager.StackId;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.CompatibilityInfo;
 import android.content.res.Configuration;
@@ -1587,6 +1588,11 @@ public interface WindowManagerPolicy {
      */
     public boolean hasNavigationBar();
     public boolean hasPermanentMenuKey();
+
+    /**
+     * Send some ActionHandler commands to WindowManager.
+     */
+    public void sendCustomAction(Intent intent);
 
     /**
      * Send some ActionHandler commands to WindowManager.
