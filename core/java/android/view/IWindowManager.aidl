@@ -22,6 +22,7 @@ import com.android.internal.view.IInputContext;
 import com.android.internal.view.IInputMethodClient;
 import com.android.internal.policy.IKeyguardDismissCallback;
 import com.android.internal.policy.IShortcutService;
+
 import android.content.Intent;
 import android.content.res.CompatibilityInfo;
 import android.content.res.Configuration;
