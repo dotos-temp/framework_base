@@ -49,4 +49,7 @@
     <string name="accessibility_quick_settings_location_high_accuracy">Location reporting: high accuracy mode.</string>
 
     <string name="recents_free_ram">Free RAM: %1$d MB</string>
+
+    <!-- volte icon switch -->
+    <string name="status_bar_volte">VOLTE</string>
 </resources>
